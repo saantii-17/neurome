@@ -16,8 +16,8 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   /* predefined */
-  cacheComponents: true,
-  partialPrefetching: true,
+  cacheComponents: false,
+  partialPrefetching: false,
   turbopack: {
     rules: {
       "*.css": {
